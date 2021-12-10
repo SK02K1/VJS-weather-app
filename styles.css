@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.weather-card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem auto;
+    border-radius: 10px;
+    
+}
+
+.weather-card div {
+    margin: .25rem;
+}
+
+.img-day-time {
+    width: 100%;
+    height: 50vh;
+}
+
+.img-weather-icon {
+    width: 10%;
+    height: auto;
+}
+
+input {
+    padding: .5rem .8rem;
+}
